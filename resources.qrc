@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/" lang="en">
+        <file>images/001.png</file>
+        <file>images/002.png</file>
+        <file>images/003.png</file>
+        <file>images/004.png</file>
+        <file>images/005.png</file>
+        <file>images/006.png</file>
+        <file>images/007.png</file>
+        <file>images/008.png</file>
+        <file>images/009.png</file>
+        <file>images/010.png</file>
+        <file>images/011.png</file>
+        <file>images/012.png</file>
+        <file>images/013.png</file>
+        <file>images/014.png</file>
+        <file>images/015.png</file>
+        <file>images/016.png</file>
+        <file>images/017.png</file>
+        <file>images/018.png</file>
+        <file>images/019.png</file>
+        <file>images/LSBU_logo.gif</file>
+        <file>settings.ini</file>
+    </qresource>
+</RCC>
