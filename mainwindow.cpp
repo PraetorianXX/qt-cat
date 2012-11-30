@@ -84,9 +84,10 @@ void MainWindow::switch_fullscreen()
         qApp->setOverrideCursor( QCursor( Qt::BlankCursor ) );
         int width = 1024;
         int height = 600;
-        QRect q = QRect::QRect(0, 0, width, height);
+        QRect q (0, 0, width, height);
 
         //QMainWindow::setWindowState(Qt::WindowFullScreen);
+
         MainWindow::resize(width, height);
         ui->imageLabel->setGeometry(q);
     }
@@ -978,7 +979,7 @@ void MainWindow::loadSettings()
     QRect sr = QApplication::desktop()->screenGeometry();
 
     init_imageLabel = ui->imageLabel->geometry();
-    fullscreen_imageLabel = QRect::QRect(0, 0, sr.width(), sr.height());
+    QRect fullscreen_imageLabel (0, 0, sr.width(), sr.height());
 
     fullscreen_width = sr.width();
     fullscreen_height = sr.height();
